@@ -33,6 +33,6 @@ print(result)
 obj.execute("UPDATE new_data1 SET first_name='RAHUL' WHERE id=1.0 ")
 conn.commit()
 
-conn.close()
+
 obj.close()
- 
+conn.close() 
